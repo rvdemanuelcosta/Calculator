@@ -155,6 +155,7 @@ div > .button-v-wide{
     margin-top: 7px;
     margin-bottom: 6px
 }
+
 @media only screen and (max-width: 500px){
     .calculator-container{
         width: 293px;
