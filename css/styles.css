@@ -1,8 +1,6 @@
 
 :root{
-    --calculator-color-main: rgb(39, 39, 39);
-    --calculator-display-color: rgb(42, 49, 35);
-    --calculator-key-color: rgb(73, 65, 65);
+    
 }
 *{
     margin: 0;
@@ -13,14 +11,20 @@ html{
     box-sizing: border-box;
     font-size: 16px;
 }
+body{
+    background-color: var(--theme-color1);
+    color: var(--theme-color3);
+}
 header{
-    border: 1px solid blue;
-    height: 64px;
+    border-bottom: 1px solid var(--theme-color3);
+    height: 50px;
     width: 100%;
     margin-bottom: 32px;
+    background-color: var(--theme-color2);
 }
-nav{
-    margin: 0;
+.logo{
+    height: 100%;
+    width: 50px;
 }
 h1{
     text-align: center;
@@ -64,6 +68,7 @@ h1{
     display: flex;
     align-items:end;
     justify-content:right;
+    color: black;
     
 }
 .calculator-display p {
@@ -155,7 +160,21 @@ div > .button-v-wide{
     margin-top: 7px;
     margin-bottom: 6px
 }
-
+footer{
+    background-color: var(--theme-color2);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    border-top: 1px solid var(--theme-color3);
+}
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    color: var(--theme-link-color1);
+}
 @media only screen and (max-width: 500px){
     .calculator-container{
         width: 293px;

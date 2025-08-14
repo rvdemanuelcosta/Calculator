@@ -1,8 +1,6 @@
 
 :root{
-    --theme-color1: rgb(6, 10, 10);
-    --theme-color2: rgb(12, 19, 19);
-    --theme-color3: white;
+    
 }
 *{
     box-sizing: border-box;
